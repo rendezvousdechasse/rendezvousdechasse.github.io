@@ -9,21 +9,35 @@
   <body>
     <div class="content">
       <p class="title">Résidence du Rendez-Vous de Chasse</p>
+      <h1>{{ page.title }}</h1>
 
-      {{ page.content }}
+      {% if page.menus %}
+      <ul class="navigation">
+        {% for menu in page.menus %}
+        <li>{{ menu }}</li>
+        {% endfor %}
+      </ul>
+      {% if page.menu_copy %}
+      <p>{{ page.menu_copy }}</p>
+      {% else %}
+      <p>Cliquer sur une rubrique ci-dessus</p>
+      {% endif %}
+      {% endif %}
+
+      {{ content }}
     </div>
 
     <div class="table-of-contents">
       <h1>Sommaire</h1>
       <ul>
-        <li><a href="#">Situation</a></li>
-        <li><a href="#">Notre Résidence</a></li>
-        <li><a href="#">Gestion</a></li>
-        <li><a href="#">Travaux</a></li>
-        <li><a href="#">Réunions Conseil Syndical</a></li>
-        <li><a href="#">Formulaires</a></li>
-        <li><a href="#">La Vie de la Résidence</a></li>
-        <li><a href="#">La Page des Résidents</a></li>
+        <li><a href="situation.html">Situation</a></li>
+        <li><a href="residence.html">Notre Résidence</a></li>
+        <li><a href="gestion.html">Gestion</a></li>
+        <li><a href="travaux.html">Travaux</a></li>
+        <li><a href="conseil-syndical.html">Réunions Conseil Syndical</a></li>
+        <li><a href="formulaires.html">Formulaires</a></li>
+        <li><a href="vie.html">La Vie de la Résidence</a></li>
+        <li><a href="residents.html">La Page des Résidents</a></li>
       </ul>
       <p><a href="about.html">À propos du site...</a></p>
     </div>
