@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Réunions du Conseil Syndical
 menus:
 - 2004

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Gestion
 menus:
 - Principe de gestion

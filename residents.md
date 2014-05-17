@@ -1,4 +1,5 @@
 ---
+layout: default
 title: La Page des Résidents
 menus:
 - Naissances

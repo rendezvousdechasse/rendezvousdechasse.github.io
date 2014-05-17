@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Notre résidence
 menus:
 - Implantation

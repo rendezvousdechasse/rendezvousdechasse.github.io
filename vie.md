@@ -1,4 +1,5 @@
 ---
+layout: default
 title: La vie de la résidence
 menus:
 - ARRC
