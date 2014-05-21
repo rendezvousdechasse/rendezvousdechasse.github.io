@@ -14,3 +14,5 @@ menu_copy: Cliquer sur l'année à consulter
 (image)
 
 Une réunion du Conseil syndical
+
+(Mettre la liste des comptes-rendus)
