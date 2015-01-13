@@ -22,4 +22,4 @@ Ont participé à l'élaboration du site :
 - C. Grimbert
 
 Vos commentaires, textes, photos sont les bienvenus :
-<site.rendezvousdechasse@wanadoo.fr>
+<syndicat@rdvdechasse.fr>
